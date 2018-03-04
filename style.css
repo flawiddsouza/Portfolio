@@ -21,7 +21,7 @@ main {
     margin: 1em auto;
 }
 
-section.inner {
+.inner {
     margin-left: 2em;
     display: flex;
     flex-wrap: wrap;
@@ -49,14 +49,24 @@ article h2 {
     font-size: 1.2em;
 }
 
-article div.links {
+
+.stack, .links {
     margin-top: 1em;
 }
 
-article div.links:before {
+.stack {
+    color: white;
+}
+
+.stack ul {
+    padding-left: 2em;
+    color: #fbe365;
+}
+
+.links:before {
     content: '🔗';
 }
 
-article div.links a {
+.links a {
     color: #50FA7B;
 }
